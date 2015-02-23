@@ -15,6 +15,4 @@ struct Eℕ<1>{
 template<unsigned N>
 constexpr auto ℕ = Eℕ<N>::i;
 
-template<unsigned ...Ns>
-constexpr std::array<unsigned, sizeof...(Ns)> ℕArray = {Ns...};
 
